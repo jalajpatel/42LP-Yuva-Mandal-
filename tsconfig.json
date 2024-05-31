@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/api/Auth/login.js", "pages/api/Auth/register.js", "models/user.js", "utils/dbConnect.js", "utils/authMiddleware.js", "pages/userPage.jsx", "pages/signup.tsx", "pages/login.tsx", "pages/familyform.jsx", "pages/api/mainMember.js"],
+  "exclude": ["node_modules"]
+}
