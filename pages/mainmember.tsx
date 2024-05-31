@@ -59,7 +59,11 @@ const MainMemberForm: React.FC = () => {
       });
     } catch (error) {
       console.error('Error:', error);
-      setError(error.message);
+      if (error instanceof Error) {
+        setError(error.message);
+      } else {
+        setError('An unexpected error occurred');
+      }
     } finally {
       setIsSubmitting(false);
     }
