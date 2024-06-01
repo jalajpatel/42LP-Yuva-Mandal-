@@ -57,7 +57,8 @@ function Controls({
 
   return (
     <div className="flex flex-col md:flex-row items-center justify-between px-3 py-3 md:px-5 md:py-5">
-      <div className="flex justify-center w-full md:hidden mb-5 md:mb-2 mt-20 md:mt-2"> {/* Centered on mobile */}
+      <div className="flex justify-center w-full md:hidden mb-5 md:mb-2 mt-20 md:mt-2">
+        {/* Centered on mobile */}
         <SliderButton handleClick={handlePrev}>
           <IoIosArrowBack className="text-xl" />
         </SliderButton>
@@ -90,7 +91,7 @@ const SliderButton = ({
 }) => {
   return (
     <button
-      className="flex h-14 w-14 items-center justify-center rounded-full border-[1px] border-[#fdfdfd5f] transition duration-300 ease-in-out hover:bg-white hover:text-black mx-2"
+      className="flex h-14 w-14 items-center justify-center rounded-full border-[1px] border-[#0000005f] bg-black text-white transition duration-300 ease-in-out hover:bg-white hover:text-black mx-2"
       onClick={handleClick}
     >
       {children}
