@@ -11,7 +11,7 @@ const FamilyDetailsPage = () => {
   const [familyDetails, setFamilyDetails] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  
+
   const placeholderImage = '/path/to/placeholder-image.png'; // Provide the path to your placeholder image
 
   function convertDriveLinkToDirectLink(shareableLink) {
@@ -56,19 +56,20 @@ const FamilyDetailsPage = () => {
         padding: '20px',
         minHeight: '100vh',
         color: '#000',
+        backgroundColor: '#f0f8ff', // Light blue background
       }}>
         <h1 style={{ textAlign: 'center', marginBottom: '20px', color: '#000' }}>Family Details</h1>
         {familyDetails && (
           <div>
-            <h2 style={{ textAlign: 'center', marginBottom: '30px', color: '#555' }}>Main Member: {familyDetails.mainMemberName}</h2>
+            <h2 style={{ textAlign: 'center', marginBottom: '30px', color: '#007acc' }}>Main Member: {familyDetails.mainMemberName}</h2>
             <table style={{
               width: '100%',
               borderCollapse: 'collapse',
-              backgroundColor: 'rgba(255, 255, 255, 0.9)',
+              backgroundColor: '#fff',
               boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)'
             }}>
               <thead>
-                <tr style={{ backgroundColor: '#333', color: 'white' }}>
+                <tr style={{ backgroundColor: '#007acc', color: 'white' }}>
                   <th style={tableHeaderStyle}>Full Name</th>
                   <th style={tableHeaderStyle}>Relationship</th>
                   <th style={tableHeaderStyle}>Mosaal</th>
@@ -83,7 +84,7 @@ const FamilyDetailsPage = () => {
               </thead>
               <tbody>
                 {familyDetails.members.map((member, index) => (
-                  <tr key={index} style={{ backgroundColor: index % 2 === 0 ? 'rgba(242, 242, 242, 0.9)' : 'rgba(255, 255, 255, 0.9)' }}>
+                  <tr key={index} style={{ backgroundColor: index % 2 === 0 ? '#e6f7ff' : '#ffffff' }}>
                     <td style={tableCellStyle}>{member.fullName}</td>
                     <td style={tableCellStyle}>{member.relationshipWithMainPerson}</td>
                     <td style={tableCellStyle}>{member.mosaal}</td>
