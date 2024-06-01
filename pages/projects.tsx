@@ -8,18 +8,18 @@ const Projects: React.FC = () => {
   }, []);
 
   const images = [
-    { src: '1.png', link: 'https://example.com/photo1', description: 'Photo 1' },
-    { src: '2.png', link: 'https://example.com/photo2', description: 'Photo 2' },
-    { src: '3.png', link: 'https://example.com/photo1', description: 'Photo 3' },
-    { src: '4.png', link: 'https://example.com/photo2', description: 'Photo 4' },
-    { src: '5.png', link: 'https://example.com/photo1', description: 'Photo 5' },
-    { src: '6.png', link: 'https://example.com/photo2', description: 'Photo 6' },
-    { src: '7.png', link: 'https://example.com/photo1', description: 'Photo 7' },
-    { src: '1.png', link: 'https://example.com/photo1', description: 'Photo 1' },
-    { src: '2.png', link: 'https://example.com/photo2', description: 'Photo 2' },
-    { src: '3.png', link: 'https://example.com/photo1', description: 'Photo 3' },
-    { src: '4.png', link: 'https://example.com/photo2', description: 'Photo 4' },
-    { src: '5.png', link: 'https://example.com/photo1', description: 'Photo 5' },
+    { src: '1.png', link: 'https://drive.google.com/file/d/1kryTi2Yx-sb_mU5uvgFwhaLiAcCNGRdq/view?usp=share_link', description: 'Mosambi Juice' },
+    { src: '2.png', link: 'https://drive.google.com/file/d/18WzGZQMjk7k6mgpGbYj--Ok5-nYeOUJw/view?usp=share_link', description: 'KhodalDham Yatra' },
+    { src: '3.png', link: 'https://drive.google.com/file/d/1Dzyihwh6pCreqp-h9M2ypbyuL_LXFS8b/view?usp=share_link', description: 'Bahucharaji Seva' },
+    { src: '4.png', link: 'https://drive.google.com/file/d/1G7ALraoc_ZRw2r8A5Uz_-9IGrckGiQ93/view?usp=share_link', description: 'Photo Gallery' },
+    { src: '5.png', link: 'https://drive.google.com/file/d/1Xvi3jVx3jvU6I4FkDgIhfc2_WLxhCs5s/view?usp=share_link', description: 'Photo Gallery 2' },
+    { src: '6.png', link: 'https://drive.google.com/file/d/1rpTjiwoSDufOsPLYOxyhMGd4bVEW5sPW/view?usp=share_link', description: 'Vadil Vandana' },
+    { src: '7.png', link: 'https://drive.google.com/file/d/1JEwfu2p3glO6rX5kZ-A74h1mcTQb8xqp/view?usp=share_link', description: '42 LP Film 2' },
+    { src: '1.png', link: 'https://drive.google.com/file/d/1MY2MoUt5v4P6HsWujNy5Tv9uFkYF0-fS/view?usp=sharing', description: 'Cricket League' },
+    { src: '2.png', link: 'https://drive.google.com/file/d/1TaFDWbauhi1R7d6_AkzdUdwJdyyGpLo7/view?usp=share_link', description: 'Mahila Sangathan' },
+    { src: '3.png', link: 'https://drive.google.com/file/d/1-VyiurQSCLt2QGFo5CuZvdO1Vyt01lQ7/view?usp=share_link', description: 'Film 1' },
+    { src: '4.png', link: 'https://example.com/photo2', description: 'Will Add' },
+    { src: '5.png', link: 'https://example.com/photo1', description: 'Will Add' },
   ];
 
   return (
@@ -34,7 +34,27 @@ const Projects: React.FC = () => {
                   Past Events
                 </div>
                 <div style={{ display: "flex", flexDirection: "column" }}>
-                  {/* Your past events content here */}
+                  • કોરોના કાળમાં સતત ૧૫ દિવસ મોસંબી જ્યૂસનું વિતરણ.
+                  <br />
+• ક્રિકેટ ટુર્નામેન્ટનું વાર્ષિક આયોજન.
+<br />
+• સરકારી નોકરી મેળવેલ સમાજ બંધુઓનો સન્માન કાર્યક્રમ.
+<br />
+• બ્લડ ડોનેશન કેમ્પનું આયોજન.
+<br />
+• સિનિયર સિટીઝન યાત્રા વર્ષ ર૦રર/૨૩/૨૪ કરાવી.
+<br />
+• વડીલ વંદના કાર્યક્રમ.
+<br />
+• સમાજના જરૂરિયાતમંદ દીકરા/દિકરીઓની અભ્યાસ માટે દત્તકર યોજના.
+<br />
+• વાર્ષિક બહુચરાજી સેવા કેમ્પ.
+<br />
+• મેગા સર્વાઈકલ (ગર્ભાશય મુખ)ના કેન્સર પ્રતિરોધક રસીકરણ અને સ્કીનિગ કેમ્પ.
+<br />
+• વ્યસન મુક્તિ માટે સંકલ્પ.
+<br />
+• બંધુત્વની ભાવના કેળવાય માટે "એકતા લાડુ" પ્રોગ્રામ.
                 </div>
               </div>
             </div>
@@ -45,6 +65,9 @@ const Projects: React.FC = () => {
                 </div>
                 <div style={{ display: "flex", flexDirection: "column" }}>
                   {/* Your upcoming events content here */}
+                  • રાહત દરે વિધાર્થીઓને ચોપડા વિતરણ.
+                  <br />
+• સમૂહલગ્ન આયોજન.
                 </div>
               </div>
             </div>
