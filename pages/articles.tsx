@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 
 // Sample article data
 const articleData = {
-  title: "Sample Article Title",
+  title: "મેગા સર્વાઈકલ (ગર્ભાશય મુખ)ના કેન્સર પ્રતિરોધક રસીકરણ અને સ્કીનિગ કેમ્પ.",
   image: "/42lp.png",
   description: "This is the short description about this article you will fin more details at the part of read more Thank you so much for reading",
   content: "Detailed content of the article goes here. You can provide more information about the article, including images, videos, and further explanations."
