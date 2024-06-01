@@ -27,7 +27,7 @@ function BackgroundImage({ transitionData, currentSlideData }: Props) {
             width: "100%",
             height: "100%",
             objectFit: "cover",
-            // filter: "brightness(50%)", // Adjust brightness here
+            objectPosition: "center", // Ensure the image is centered
           }}
           src={transitionData.img}
         />
@@ -43,7 +43,7 @@ function BackgroundImage({ transitionData, currentSlideData }: Props) {
           width: "100%",
           height: "100%",
           objectFit: "cover",
-          // filter: "brightness(50%)", // Adjust brightness here
+          objectPosition: "center", // Ensure the image is centered
         }}
       />
     </>
