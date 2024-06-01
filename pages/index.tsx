@@ -67,7 +67,7 @@ export default function Home() {
               />
             </div>
             <div className="flex h-full flex-1 flex-col justify-start p-4 md:justify-center md:p-10">
-              <Slides data={data} />
+              
               <Controls
                 currentSlideData={currentSlideData}
                 data={data}
@@ -98,10 +98,10 @@ const sliderData = [
   },
   {
     img: "/2.png",
-    title: "The Grand Canyon",
+    title: "International Book of Record",
     description:
       "The earth's geological history opens before your eyes in a mile-deep chasm",
-    location: "Arizona",
+    location: "Bharat",
   },
   {
     img: "/3.png",
@@ -118,7 +118,42 @@ const sliderData = [
     location: "Cambodia",
   },
   {
+    img: "/5.png",
+    title: "Bali",
+    description:
+      "Tropical beaches, volcano hikes, ancient temples, and friendly people",
+    location: "Indonesia",
+  },
+  {
+    img: "/6.png",
+    title: "Bali",
+    description:
+      "Tropical beaches, volcano hikes, ancient temples, and friendly people",
+    location: "Indonesia",
+  },
+  {
     img: "/7.png",
+    title: "Bali",
+    description:
+      "Tropical beaches, volcano hikes, ancient temples, and friendly people",
+    location: "Indonesia",
+  },
+  {
+    img: "/8.png",
+    title: "Bali",
+    description:
+      "Tropical beaches, volcano hikes, ancient temples, and friendly people",
+    location: "Indonesia",
+  },
+  {
+    img: "/9.png",
+    title: "Bali",
+    description:
+      "Tropical beaches, volcano hikes, ancient temples, and friendly people",
+    location: "Indonesia",
+  },
+  {
+    img: "/10.png",
     title: "Bali",
     description:
       "Tropical beaches, volcano hikes, ancient temples, and friendly people",
