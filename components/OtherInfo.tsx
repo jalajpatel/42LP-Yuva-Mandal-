@@ -16,10 +16,14 @@ function OtherInfo({ data }: any) {
   return (
     <motion.div
       initial="hidden"
-      animate={"visible"}
+      animate="visible"
       style={{
         display: "flex",
         flexDirection: "column",
+        backgroundColor: "Orange",
+        color: "white",
+        padding: "1rem", // Add some padding for better appearance
+        borderRadius: "0.5rem", // Optional: Add border-radius for rounded corners
       }}
     >
       <AnimatedText
@@ -34,7 +38,7 @@ function OtherInfo({ data }: any) {
         style={{
           marginTop: "0.25rem",
           marginBottom: "0.25rem",
-          fontSize: "4xl",
+          fontSize: "1.25rem", // Adjusted fontSize to a relative unit
           fontWeight: "bold",
           lineHeight: "1",
         }}
@@ -42,7 +46,7 @@ function OtherInfo({ data }: any) {
       />
       <AnimatedText
         style={{
-          fontSize: "xs",
+          fontSize: "0.875rem", // Adjusted fontSize to a relative unit
           color: "#D5D5D6",
         }}
         data={data?.description}
